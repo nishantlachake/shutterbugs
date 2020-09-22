@@ -2674,8 +2674,8 @@ fieldset:disabled a.btn {
   position: absolute;
   width:200px;
   height:50px;
-     margin-left:-42%;
-     margin-top:4%;
+     margin-left:-38%;
+     margin-top:-2%;
   font-size: 22px;
   font-weight: bolder;
 
@@ -10628,7 +10628,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 
   }
 .btn-primary{
-  margin-left: 50px;
   padding: 8px 12px;
   color: #000000;
   box-shadow: 0 3px 6px rgba(18, 18, 19, 0.4);
@@ -10676,18 +10675,29 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footrow{
   /*padding-bottom: 10%;*/
 }
-
 @media screen and (max-width:450px){
   .camera-img{
     width:100%;
   }
+  .carousel-button{
+    position: absolute;
+    margin-left:-45px;
+    margin-top:-75px;
+  }
+}
 
-@media screen and (max-width:450px){
+@media screen and (max-width:769px){
   .carousel-item{
     max-height:144px;
     width: 100%;
+    background-image: cover;
   }
+ 
 }
-  
+
+
+
+
+
 
  
